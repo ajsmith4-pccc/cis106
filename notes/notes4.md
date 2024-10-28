@@ -5,7 +5,6 @@
 [**Absolute path**] path from root
 [**Relative path**] path from current directory
 [**parent directory**] directory that houses another directory
-[**subdirectory**] directory that is under another directory
 [**Bash special characters**] characters reserved by the bash shell to define a specific type of variable or command
 [**environment variables**] Globally defined variables that return values for commonly used system values
 [**user defined variables**] variables created by a user that are exclusive to the script they're written in 
