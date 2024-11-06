@@ -3,6 +3,10 @@ creates a new directory in the pwd, with the specified name
 - **usage**: mkdir [option] [directory]
 - **example**: mkdir -p myClasses/math
   - creates a directory myClasses, and the subdirectory math
+- **example**: mkdir ~/Documents/{Legal, Personal, Work}
+  - creates three directories named Legal, Personal, and Work, in the Documents folder.
+- **example**: mkdir wip finalRender
+  - creates two directories, wip and finalRender, in the current working directory
 ### touch
 updates the timestamp of the specified file
 - **usage**: touch [option] [file]
@@ -10,6 +14,8 @@ updates the timestamp of the specified file
   - creates a new empty file named newfile.png
 - **example**: touch -c myEssay.odt
   - updates the timestamps on myEssay.odt if it exists. if it doesnt, the -c option prevents it from creating the file
+- **example**: touch resume.pdf --date="Sun Nov 3"
+  - updates the date of resume.pdf to Sunday, November 3rd of the current year, at 12:00 am
 ### rm 
 deletes the specified file (or directory, contextually/when given the proper options)
 - rm [option] [file]
