@@ -3,16 +3,19 @@
 - displays the contents of a file. cat = short for concatenate
 > cat [option] [filepath]
 #### Examples
-- -E shows end of lines
-- -n numbers lines
-- absolute path
+- cat -E reciept.txt
+  - prints reciept.txt with $ signs to denote end of a line
+- cat -n reciept.txt
+  - prints reciept.txt with numbered lines
 
 ## tac
 - like cat, but displays file contents in reverse order
 > tac [option] [filepath]
 #### Examples
-- -E shows end of lines
-- -n numbers lines
+  - tac -E reciept.txt
+  - prints reciept.txt in reverse order, and  $ signs to denote end of a line
+- cat -n reciept.txt
+  - prints reciept.txt in reverse order with numbered lines
 - absolute path
 
 ## head
